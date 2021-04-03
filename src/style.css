@@ -1,0 +1,52 @@
+.backdoor
+{
+  background-color: #7f56a062;
+  width:100vh;
+  height:100vh;
+  margin: 0 auto;
+  border: none;
+}
+
+body{
+  overflow: hidden;
+  background-color: #333;
+}
+
+.door 
+{
+  align-items: center;
+  background-color: #7F56A0;
+  justify-content: center;
+  width:100vh;
+  height:100vh;
+  transform-origin: left;
+  margin: 0 auto;
+  margin-bottom: -10px;
+  margin-top: -10px;
+  border: none;
+  transition: all 1s ease-in-out;
+}
+
+#f_frame{
+  display: block;
+  width: 20%;
+  height: 25%;
+  padding-top: 35%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#f_logo
+{
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+  width: 30%;
+  height: 7%;
+}
+
+.doorOpen
+{
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(90deg);
+}
+
